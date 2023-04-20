@@ -12,5 +12,9 @@
   "bugs": {
     "url": "https://github.com/bloody-falcon/rpc/issues"
   },
-  "homepage": "https://github.com/bloody-falcon/rpc"
+  "homepage": "https://github.com/bloody-falcon/rpc",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "events": "^3.3.0"
+  }
 }
