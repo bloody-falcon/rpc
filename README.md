@@ -19,7 +19,7 @@ RPC.setRPCDomainName('account');
 Connect to Rabbit MQ
 ```
 await RPC.connect({
-  	RABBIT_MQ_URL,
+	RABBIT_MQ_URL,
     RABBIT_MQ_PORT,
     RABBIT_MQ_USERNAME,
     RABBIT_MQ_PWD,
