@@ -1,4 +1,6 @@
 const _ = require('lodash');
+const amqp = require('amqplib');
+const EventEmitter = require('events');
 const { v4: uuidv4 } = require('uuid');
 const {
     HandleRPCFunction
