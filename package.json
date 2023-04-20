@@ -1,0 +1,16 @@
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "description": "This is rpc package",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bloody-falcon/rpc.git"
+  },
+  "author": "Falcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloody-falcon/rpc/issues"
+  },
+  "homepage": "https://github.com/bloody-falcon/rpc"
+}
