@@ -1,8 +1,6 @@
 const {
     HandleRPCFunction
-} = require('../../../response.rpc');
-
-const LOG_HELPER = require('../../../../utils/log.util');
+} = require('../response');
 
 const RPC_SUBSCRIBE_FUNCTION_HELPER = {
     subscribeList: {},
