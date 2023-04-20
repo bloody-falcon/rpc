@@ -61,7 +61,7 @@ const RESPONSE_HELPER = {
 module.exports = {
     async HandleRPCFunction(rpcFunction, inputData, METHOD_NAME) {
         try {
-            let data = await rpcFunction(inputData);
+            let data = await rpcFunction(inputData, METHOD_NAME);
 
             if (data == null) return RESPONSE_HELPER.HandleRPCResponse();
 
