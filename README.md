@@ -35,7 +35,9 @@ listen Event: If the eventKey as "#", then, it's listen all event of system
 RPC.on(key, ‘event’, async function)
 ```
 listen RPC call:
+```
 RPC.on(key, ‘rpc’, async function);
+```
 callRPC
 ```
 RPC.callRPC(key, input);
