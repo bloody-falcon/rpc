@@ -173,7 +173,7 @@ const RPC_HELPER = {
                 }
             );
         } else {
-            const queueName = `${RPC_HELPER["rpc_domain_name"]}.${exposeKey}`.toLowerCase();
+            const queueName = `${RPC_HELPER["rpc_domain_name"]}.${key}`.toLowerCase();
             RPC_HELPER.channel.assertQueue(
                 queueName,
                 { durable: false, }
