@@ -187,7 +187,7 @@ const RPC_HELPER = {
                         correlationId,
                     } = msg.properties;
                     const c = JSON.parse(msg.content.toString());
-                    const r = await HandleRPCFunction(func, c, k);
+                    const r = await HandleRPCFunction(func, c, key);
                     /** Reply response to replyTo queue */
                     RPC_HELPER.channel.sendToQueue(
                         replyTo,
